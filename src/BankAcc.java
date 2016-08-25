@@ -3,7 +3,7 @@
  */
 public class BankAcc {
     private int accNumber;
-    private int balance;
+    private double balance;
     private String customerName;
     private String customerEmail;
     private int customerPhone;
@@ -16,11 +16,11 @@ public class BankAcc {
         this.accNumber = accNumber;
     }
 
-    public int getBalance() {
+    public double getBalance() {
         return this.balance;
     }
 
-    public void setBalance(int balance) {
+    public void setBalance(double balance) {
         this.balance = balance;
     }
 

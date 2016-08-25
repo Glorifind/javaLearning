@@ -36,5 +36,17 @@ public class Main {
         account.withdrawFunds(1);
         System.out.println("Balance of the account is "
                 +account.getBalance()+"$");
+
+        //Create VIP customer
+        VipBankAcc vipAccount = new VipBankAcc("Jan Kowalski","jkowalski@example.com");
+        System.out.println("Vip account for "
+                + vipAccount.getName()
+                + "his email is "
+                + vipAccount.getEmail()
+                + " with loan limit of "
+                + vipAccount.getCreditLimit()+"$");
+
     }
+
+
 }
